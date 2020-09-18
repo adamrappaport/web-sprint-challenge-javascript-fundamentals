@@ -16,9 +16,26 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation
+
+// the nested function can access the variable because it is stil inside the function myFunction which holds the variable inside it. funcations have access to all information that reside inside itself
 
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+// let count =0
+// function summation(count){
+  
+//   return count add++
+// }
+// console.log(summation(4));
+
+function adder(base,index) {
+  base = Number(base);
+  for (var i = 1; i < arguments.length; i++) {
+    base += Number(arguments[i]);
+  }
+  return base;
+}
+console.log(adder(4,0));
