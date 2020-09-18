@@ -10,7 +10,7 @@
 // CuboidMaker.prototype.surfArea = function(){
 //     return 2 * ((this.length*this.width) + (this.length * this.height) + (this.width *this.height))
 
-    class CuboidMaker{
+    class CuboidMaker1{
         constructor(attrs){
         this.length= attrs.length;
         this.width= attrs.width;
