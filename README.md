@@ -27,13 +27,32 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+foreach iterates through every item in array without stopping and it doesnt return a new array.
+.map converts data it creates a brand new array
+
 2. Explain the difference between a callback and a higher order function.
 
+ higher order functions receive callback functions as an arugment 
+  callback function are passed into higher functions as an arugment
+
 3. What is closure?
+ 
+ a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 
 4. Describe the four rules of the 'this' keyword.
 
+global object binding:When in the global scope, the value of "this" will be the window/console Object
+
+Implicit Binding:Whenever a preceding dot calls a function, the object before the dot is this
+
+New Binding: Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+Explicit Binding: Whenever we use JavaScript’s call or apply method, this is explicitly defined.
+
+
 5. Why do we need super() in an extended class?
+
+it does what object.create and parent.call do. its gives the extended class the properties of the parent
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
